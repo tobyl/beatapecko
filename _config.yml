@@ -1,0 +1,12 @@
+title: Dr. Beata Pecko
+email: tobyleftly@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Dr. Beata Pecko provides dentistry for the community of Windsor, Ontario N8X 4Z3
+  and surrounding communities. Please call (519) 255-1117 to schedule an appointment today
+baseurl: ""
+url: "https://drbeatapecko.com"
+twitter_username: tobyleftly
+github_username:  tobyl
+
+plugins:
+  - jekyll-feed

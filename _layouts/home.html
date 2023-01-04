@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <div id="wrapper">
+      <header>
+        <div id="home-header">
+          <button id="show-modal">
+            menu
+          </button>
+          {% include logo.html %}
+          {% include pattern.html %}
+          <img id="beata-pecko" src="assets/img/beata-pecko-dds.png" />
+        </div>
+        <div class="four-columns">
+          <p class="text-center">The best and latest in dental technology and treatment options</p>
+          <p class="text-center">State of the art equipment</p>
+          <p class="text-center">Competent staff dedicated to patient comfort and quality of care</p>
+          <p class="text-center">Specialists emphasizing in comprehensive care, quality and preventative dentistry</p>
+        </div>
+        {% include pattern.html reverse=true %}
+      </header>
+      <h1>{{ page.title }}</h1>
+      <section>
+        {{ content }}
+      </section>
+    </div> <!-- #wrapper -->
+    <footer>
+      &copy; to me
+    </footer>
+    {% include nav.html %}
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

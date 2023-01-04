@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <div id="wrapper">
+      <header>
+        <div id="home-header">
+          <button id="show-modal">
+            menu
+          </button>
+          <img id="masthead" src="/assets/img/masthead.png" />
+          {% include pattern.html %}
+        </div>
+      </header>
+      <h1>{{ page.title }}</h1>
+      <section>
+        {{ content }}
+      </section>
+    </div> <!-- #wrapper -->
+    <footer>
+      &copy; to me
+    </footer>
+    {% include nav.html %}
+    <script src="/assets/js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+#home-header {
+  position: relative;
+  height: 300px;
+  svg.pattern {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.5;
+  }
+  #beata-pecko {
+    float: right;
+    height: 100%;
+  }
+  #masthead {
+    position: absolute;
+    width: 40%;
+    top: 20px;
+    left: 20px;
+  }
+}
+
+svg.pattern.reverse {
+  transform: rotate(180deg);
+  opacity: 0.5;
+}

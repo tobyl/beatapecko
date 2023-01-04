@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600&display=swap');
+
+:root {
+  --primary: #404040;
+  --secondary: #db4a63;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: var(--primary);
+
+  // background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='250' preserveAspectRatio='none' viewBox='0 0 1440 250'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1023%26quot%3b)' fill='none'%3e%3crect width='1440' height='250' x='0' y='0' fill='rgba(255%2c 255%2c 255%2c 0.67)'%3e%3c/rect%3e%3cpath d='M21 250L271 0L358 0L108 250z' fill='url(%23SvgjsLinearGradient1024)'%3e%3c/path%3e%3cpath d='M240.60000000000002 250L490.6 0L540.1 0L290.1 250z' fill='url(%23SvgjsLinearGradient1024)'%3e%3c/path%3e%3cpath d='M511.20000000000005 250L761.2 0L852.7 0L602.7 250z' fill='url(%23SvgjsLinearGradient1024)'%3e%3c/path%3e%3cpath d='M751.8000000000001 250L1001.8000000000001 0L1301.8000000000002 0L1051.8000000000002 250z' fill='url(%23SvgjsLinearGradient1024)'%3e%3c/path%3e%3cpath d='M1417 250L1167 0L1054.5 0L1304.5 250z' fill='url(%23SvgjsLinearGradient1025)'%3e%3c/path%3e%3cpath d='M1172.4 250L922.4000000000001 0L799.4000000000001 0L1049.4 250z' fill='url(%23SvgjsLinearGradient1025)'%3e%3c/path%3e%3cpath d='M943.8 250L693.8 0L506.29999999999995 0L756.3 250z' fill='url(%23SvgjsLinearGradient1025)'%3e%3c/path%3e%3cpath d='M685.1999999999999 250L435.19999999999993 0L253.69999999999993 0L503.69999999999993 250z' fill='url(%23SvgjsLinearGradient1025)'%3e%3c/path%3e%3cpath d='M1228.9585623334663 250L1440 38.95856233346632L1440 250z' fill='url(%23SvgjsLinearGradient1024)'%3e%3c/path%3e%3cpath d='M0 250L211.04143766653368 250L 0 38.95856233346632z' fill='url(%23SvgjsLinearGradient1025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1023'%3e%3crect width='1440' height='250' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1024'%3e%3cstop stop-color='rgba(219%2c 75%2c 100%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(219%2c 75%2c 100%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1025'%3e%3cstop stop-color='rgba(219%2c 75%2c 100%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(219%2c 75%2c 100%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+
+  // background-repeat: no-repeat;
+}
+
+#wrapper {
+  flex: 1;
+}
