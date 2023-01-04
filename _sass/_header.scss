@@ -1,0 +1,17 @@
+header {
+  border: 1px solid red;
+  position: relative;
+  height: 50vw;
+  svg.masthead {
+    width: 50%;
+    margin: 0 auto;
+  }
+  svg.pattern {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+header.home {
+
+}
