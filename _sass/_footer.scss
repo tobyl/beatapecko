@@ -1,7 +1,13 @@
 footer {
-  background: var(--secondary);
+  background: rgb(241,115,137);
+  background: linear-gradient(30deg, rgba(241,115,137,1) 0%, rgba(219,74,99,1) 35%, rgba(246,164,178,1) 100%);
   color: #fff;
   font-weight: 500;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+footer svg.logo-mark-mono {
+  opacity: 0.25;
+  width: 30%;
 }

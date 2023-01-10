@@ -1,0 +1,29 @@
+ul.icon-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 5rem;
+  grid-row-gap: 0px;
+  li {
+    svg.icon {
+      width: 100%;
+      fill: var(--secondary);
+      border: 3px solid var(--secondary);
+      border-radius: 50%;
+      padding: 1rem;
+    }
+    span {
+      display: inline-block;
+      text-align: center;
+      padding-top: 1rem;
+      font-weight: 600;
+      line-height: 1.25rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  ul.icon-list {
+    margin: 0 5rem;
+  }
+}

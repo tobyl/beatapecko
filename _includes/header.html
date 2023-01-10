@@ -1,0 +1,24 @@
+<header class="page {% if include.home %}home{% endif %}">
+  <div class="container">
+    <button id="show-modal">
+      {% include menu-bars.html %}
+      <span class="sr-only">menu</span>
+    </button>
+    <a href="/">{% include logo.html %}</a>
+    {% if include.home %}
+      <div class="home-quote">
+        {% include icons/quote-left.svg %}
+        Our clients' comfort and safety are our number one priority at all times."
+        {% include icons/quote-right.svg %}
+        <div>
+          <a class="btn small" href="/contact">Book an Appointment</a>
+          <p>OR</p>
+          <p>Call (519) 255-1117</p>
+        </div>
+      </div>
+    {% endif %}
+    {% if include.home %}
+      <img id="beata-pecko" src="assets/img/beata-pecko-dds.png" />
+    {% endif %}
+  </div>
+</header>

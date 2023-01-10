@@ -1,1 +1,27 @@
 
+.container {
+  position: relative;
+  padding: 2rem 0.8rem;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+// sidebar
+
+@media (min-width: 768px) {
+  .container.has-sidebar {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  aside.sidebar {
+    align-self: flex-start;
+    position: sticky;
+    top: 0;
+    min-width: 200px;
+  }
+
+  section.main {
+    flex: 1;
+  }
+}

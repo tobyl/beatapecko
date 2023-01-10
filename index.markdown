@@ -3,8 +3,41 @@ layout: home
 ---
 
 <section>
-  <h2>We are currently accepting new patients!</h2>
+  <div>
+    <a class="btn" href="#">A Button</a>
+    <button class="btn">A Button</button>
+  </div>
+  <ul>
+    <li>We are currently accepting new patients!</li>
+    <li>emergency patients</li>
+    <li>anxious patients</li>
+  </ul>
 </section>
+
+----
+
+<section>
+  <ul class="unstyled-list icon-list">
+    <li>
+      {% include icons/woman-mask.svg %}
+      <span>Safe, comfortable rooms</span>
+    </li>
+    <li>
+      {% include icons/technology.svg %}
+      <span>State-of-the-art technology</span>
+    </li>
+    <li>
+      {% include icons/xray.svg %}
+      <span>The very best dental experience</span>
+    </li>
+    <li>
+      {% include icons/tools.svg %}
+      <span>Wide range of dental services</span>
+    </li>
+  </ul>
+</section>
+
+---
 
 <section>
   <h2>Meet Dr. Pecko, DDS</h2>
@@ -13,11 +46,18 @@ layout: home
   <p>Dr. Pecko's emphasis is on patient comfort as well as keeping up with the latest advancements in dentistry today. This enables her to provide patients with the best quality of care in the field.</p>
 </section>
 
+---
+
 <section>
   <h2>Meet the Team</h2>
   <p>pics of core staff here?</p>
 </section>
 
+---
+
 <section>
   <h2>Our services</h2>
+  <p>Brief outline of services</p>
+  <p>Link to services page</p>
 </section>
+

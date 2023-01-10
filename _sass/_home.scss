@@ -1,0 +1,11 @@
+.home-quote {
+  font-size: 1.5rem;
+  width: 50%;
+  text-align: center;
+  margin: 5rem 0 0 8rem;
+  svg {
+    display: inline;
+    height: 25px;
+    fill: var(--secondary);
+  }
+}

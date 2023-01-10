@@ -2,7 +2,9 @@
 
 :root {
   --primary: #404040;
+  --primary-light: #b8b8b8;
   --secondary: #db4a63;
+  --secondary-light: #eda2ae;
 }
 
 body {
@@ -19,4 +21,12 @@ body {
 
 #wrapper {
   flex: 1;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 2rem;
 }

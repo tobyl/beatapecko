@@ -1,0 +1,14 @@
+@mixin button {
+  display: inline-block;
+  background-color: var(--primary);
+  color: #fff;
+  text-decoration: none;
+  font: inherit;
+  border: none;
+  line-height: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.btn {
+  @include button;
+}

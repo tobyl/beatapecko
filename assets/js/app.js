@@ -12,6 +12,7 @@
     $body.addEventListener('click', function(e) {
       if (e.target.id === 'menu-modal') {
         $menuModal.close()
+        $body.classList.remove('modal-open')
       }
     })
   }
@@ -21,6 +22,5 @@
     openModal()
   })
 
-  openModal()
 
 })();

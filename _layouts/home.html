@@ -3,32 +3,14 @@
   {% include head.html %}
   <body>
     <div id="wrapper">
-      <header class="page home">
-        <div id="home-header">
-          <button id="show-modal">
-            {% include menu-bars.html %}
-            menu
-          </button>
-          {% include logo.html %}
-          {% include pattern.html %}
-          <img id="beata-pecko" src="assets/img/beata-pecko-dds.png" />
-        </div>
-        <div class="four-columns">
-          <p class="text-center">The best and latest in dental technology and treatment options</p>
-          <p class="text-center">State of the art equipment</p>
-          <p class="text-center">Competent staff dedicated to patient comfort and quality of care</p>
-          <p class="text-center">Specialists emphasizing in comprehensive care, quality and preventative dentistry</p>
-        </div>
-        {% include pattern.html reverse=true %}
-      </header>
-      <h1>{{ page.title }}</h1>
-      <section>
-        {{ content }}
-      </section>
+      {% include header.html home=true %}
+      <div class="container">
+        <section>
+          {{ content }}
+        </section>
+      </div>
     </div> <!-- #wrapper -->
-    <footer>
-      &copy; to me
-    </footer>
+    {% include footer.html %}
     {% include nav.html %}
     <script src="assets/js/app.js"></script>
   </body>
