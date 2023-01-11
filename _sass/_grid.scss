@@ -1,4 +1,9 @@
 @media (min-width: 768px) {
+  .two-columns {
+    display: grid;
+    grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: column;
+  }
   .four-columns {
     display: grid;
     grid-auto-columns: minmax(0, 1fr);

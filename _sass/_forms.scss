@@ -1,0 +1,24 @@
+label.primary-label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary-subtle);
+  margin-bottom: 0.5rem;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+select,
+textarea {
+  width: 100%;
+  border: 1px solid #b1b1b1;
+  border-radius: 3px;
+  line-height: 1rem;
+  padding: 0.75rem 0.5rem;
+  transition: border 171ms ease-out;
+  &:focus {
+    border-color: #333;
+    outline: none;
+  }
+}

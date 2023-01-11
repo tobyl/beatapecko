@@ -54,3 +54,21 @@ hr {
   border-top: 1px solid var(--primary-light);
   margin: 2rem 0;
 }
+
+hr.short {
+  border-color: var(--secondary);
+  width: 30%
+}
+
+// address
+
+address {
+  margin-bottom: 2rem;
+}
+
+address a {
+  color: inherit;
+  &:hover {
+    text-decoration: none;
+  }
+}

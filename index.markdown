@@ -3,10 +3,6 @@ layout: home
 ---
 
 <section>
-  <div>
-    <a class="btn" href="#">A Button</a>
-    <button class="btn">A Button</button>
-  </div>
   <ul>
     <li>We are currently accepting new patients!</li>
     <li>emergency patients</li>
@@ -20,11 +16,11 @@ layout: home
   <ul class="unstyled-list icon-list">
     <li>
       {% include icons/woman-mask.svg %}
-      <span>Safe, comfortable rooms</span>
+      <span>Safe, clean and comfortable rooms</span>
     </li>
     <li>
       {% include icons/technology.svg %}
-      <span>State-of-the-art technology</span>
+      <span>State-of-the-art technology and practices</span>
     </li>
     <li>
       {% include icons/xray.svg %}
@@ -32,7 +28,11 @@ layout: home
     </li>
     <li>
       {% include icons/tools.svg %}
-      <span>Wide range of dental services</span>
+      <span>We offer a wide range of dental services</span>
+    </li>
+    <li>
+      {% include icons/toothbrush.svg %}
+      <span>Solid advice and guidance on dental health</span>
     </li>
   </ul>
 </section>

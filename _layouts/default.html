@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="en">
   {% include head.html %}
-  <body>
+  <body class="{{ page.url | replace:'/','' }}">
     <div id="wrapper">
-      {% include header.html %}
+      {% include simple-header.html %}
       <section class="sub-header">
         <div class="container">
           <h1>{{ page.title }}</h1>
