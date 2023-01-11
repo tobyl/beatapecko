@@ -1,0 +1,21 @@
+{% if page.title == 'Our Services' %}
+  <aside class="sidebar services-sidebar">
+    <a id="book-appt" href="/contact/">
+      <span>{% include icons/calendar.svg %}</span>
+      <p><i>Book an</i> Appointment</p>
+    </a>
+    <ul class="unstyled-list">
+      <li><a href="#">list</a></li>
+      <li><a href="#">of</a></li>
+      <li><a href="#">services</a></li>
+    </ul>
+  </aside>
+{% else if page.title == 'Contact Us' %}
+  <aside class="sidebar contact-sidebar">
+    <ul class="unstyled-list">
+      <li><a href="#">list</a></li>
+      <li><a href="#">of</a></li>
+      <li><a href="#">services</a></li>
+    </ul>
+  </aside>
+{% endif %}
