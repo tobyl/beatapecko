@@ -1,5 +1,5 @@
 .sidebar {
-  padding-right: 5rem;
+  padding-right: 4rem;
   #book-appt {
     display: block;
     background: #fff;
@@ -42,7 +42,31 @@
 }
 
 .sidebar.services-sidebar {
-
+  ul {
+    padding-top: 2rem;
+    li {
+      font-size: 1.15rem;
+      a {
+        color: var(--secondary);
+        text-decoration: none;
+        font-weight: 600;
+        &:hover {
+          color: var(--primary);
+        }
+      }
+      &:after {
+        content: '';
+        display: block;
+        height: 0;
+        border-top: 1px solid #999;
+        width: 25%;
+        margin: 1rem 0;
+      }
+      &:last-child:after {
+        border-color: transparent;
+      }
+    }
+  }
 }
 
 .sidebar.contact-sidebar {

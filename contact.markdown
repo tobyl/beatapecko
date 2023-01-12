@@ -17,6 +17,7 @@ permalink: /contact/
       </ul>
       <hr class="short" />
       <h3>Contact Us</h3>
+      <img src="/assets/img/office.jpg" />
       <address>
         2665 Howard Ave, Unit 1<br>
         Windsor, Ontario<br>
@@ -25,7 +26,7 @@ permalink: /contact/
       <address class="addr-contact">
         <strong>Phone</strong> <a href="tel:15192551117">519-255-1117 x12</a><br>
         <strong>Email</strong> <a href="mailto:info@drbeatapecko.com">info@drbeatapecko.com</a><br>
-        <strong>Emergency</strong> 519-564-6568
+        <strong>Emergency</strong> <a href="tel:15195646568">519-564-6568</a>
       </address>
     </div>
     <div>
