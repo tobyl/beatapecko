@@ -44,6 +44,7 @@
 .sidebar.services-sidebar {
   ul {
     padding-top: 2rem;
+    text-align: center;
     li {
       font-size: 1.15rem;
       a {
@@ -60,10 +61,23 @@
         height: 0;
         border-top: 1px solid #999;
         width: 25%;
-        margin: 1rem 0;
+        margin: 1rem auto;
       }
       &:last-child:after {
         border-color: transparent;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .sidebar.services-sidebar {
+    ul {
+      text-align: left;
+      li {
+        &:after {
+          margin: 1rem 0;
+        }
       }
     }
   }

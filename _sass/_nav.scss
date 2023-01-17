@@ -11,7 +11,7 @@ dialog#menu-modal {
         display: flex;
         flex-direction: row;
         align-items: center;
-        color: inherit;
+        color: #eda2ae;
         text-decoration: none;
         transition: color 171ms ease-out;
         svg.arrow {
@@ -46,6 +46,19 @@ dialog#menu-modal {
         font-size: 0.85rem;
         line-height: 0.5rem;
         opacity: 0.5;
+      }
+    }
+    li.home-lnk {
+      span {
+        padding-left: 1rem;
+        opacity: 0;
+        transition: opacity 171ms ease-out;
+        font-size: 90%;
+      }
+      &:hover {
+        span {
+          opacity: 1;
+        }
       }
     }
   }
