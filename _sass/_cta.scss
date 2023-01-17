@@ -1,0 +1,23 @@
+.cta {
+  position: relative;
+  text-align: center;
+  border: 1px solid var(--secondary);
+  border-radius: 8px;
+  padding: 2rem 1rem 1rem;
+  margin: 4rem 0 2rem 0;
+  h3 {
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    background: #fff;
+    line-height: 32px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  small {
+    display: block;
+    line-height: 2rem;
+  }
+}

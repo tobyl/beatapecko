@@ -11,7 +11,7 @@
   padding: 0.5rem 1rem;
   text-transform: uppercase;
   // border: 1.5px solid var(--secondary);
-  border-radius: 15px;
+  border-radius: 18px;
 }
 
 .btn {
@@ -37,6 +37,14 @@
 @keyframes pulse {
   0% { box-shadow: 0 0 0 1px rgba(219,73,99,0) }
   100% { box-shadow: 0 0 0 10px rgba(219,73,99,0.2); }
+}
+
+// subtle
+
+.btn.btn-subtle {
+  background: #fff;
+  border: 2px solid var(--secondary);
+  color: var(--secondary);
 }
 
 // nav trigger

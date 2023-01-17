@@ -6,7 +6,7 @@ permalink: /contact/
 
 <section>
   <div class="columns two-columns">
-    <div>
+    <div class="contact-details">
       <h3>Office Hours</h3>
       <ul class="unstyled-list office-hours">
         <li><strong>Mon</strong> 8:00am - 5:00pm</li>
@@ -31,6 +31,7 @@ permalink: /contact/
     </div>
     <div>
       <h3>Book an Appointment</h3>
+      <p>Please use the form below to book an appointment. Let us know your contact details and we'll get back to you within one business day.</p>
       <form id="my-form" action="https://formspree.io/f/xrgyvdyw" method="POST">
         <div id="inner-form">
           <p class="field">
