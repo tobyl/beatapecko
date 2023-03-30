@@ -1,0 +1,34 @@
+<footer>
+  <div class="container">
+    {{ partial "svg/logo-mark-mono.html" . }}
+    <div class="columns two-columns">
+      <div>
+        <ul class="unstyled-list footer-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+        Dr. Beata Pecko Dentistry<br />
+        &copy; <span id="date">2022</span>
+      </div>
+      <div>
+        <address>
+          2665 Howard Ave, Unit 1<br>
+          Windsor, Ontario<br>
+          N8X 4Z3
+        </address>
+        <address class="addr-contact">
+          <strong>Phone</strong> <a href="tel:15192551117">519-255-1117 x12</a><br>
+          <strong>Email</strong> <a href="mailto:info@drbeatapecko.com">info@drbeatapecko.com</a><br>
+          <strong>Emergency</strong> <a href="tel:15195646568">519-564-6568</a>
+        </address>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var e = document.getElementById('date')
+  var d = new Date().getFullYear()
+  e.textContent = d
+</script>

@@ -1,0 +1,13 @@
+.desktop-nav {
+  display: none;
+
+  & ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+}

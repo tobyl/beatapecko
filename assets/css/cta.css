@@ -1,0 +1,13 @@
+#cta {
+  text-align: center;
+
+  & h3,
+  & small {
+    display: block;
+    max-inline-size: none;
+  }
+
+  & small {
+
+  }
+}

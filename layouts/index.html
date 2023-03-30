@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en">
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "home-header.html" . }}
+    {{ .Content }}
+    {{ partial "cta.html" . }}
+    {{ partial "footer.html" . }}
+    <script defer language="javascript" type="text/javascript"  src="{{ "/js/main.js" | urlize | relURL }}"></script>
+  </body>
+</html>

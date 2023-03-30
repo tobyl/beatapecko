@@ -1,0 +1,26 @@
+footer {
+  background: rgb(241,115,137);
+  background: linear-gradient(20deg, rgba(241,115,137,1) 0%, rgba(219,74,99,1) 35%, rgb(234, 87, 112) 100%);
+  color: var(--secondary-l2);
+  font-weight: 600;
+  padding-block: 4rem;
+
+  & a {
+    color: inherit;
+  }
+}
+
+footer svg.logo-mark-mono {
+  opacity: 0.25;
+  width: 260px;
+}
+
+.footer-links {
+  margin-bottom: 2rem;
+  a {
+    color: inherit;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

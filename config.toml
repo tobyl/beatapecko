@@ -1,0 +1,6 @@
+baseURL = 'http://drbeatapecko.com'
+languageCode = 'en-ca'
+title = 'Dr. Beata Pecko'
+
+[markup.goldmark.renderer]
+unsafe= true

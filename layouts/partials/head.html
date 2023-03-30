@@ -1,0 +1,19 @@
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  {{ with resources.Get "css/main.css" | postCSS }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+
+  <meta name="og:image" content="/assets/img/logo-lg.png">
+  <meta name="og:url" content="http://pinnaclephysiotherapy.com">
+  <meta name="og:site_name" content="Pinnacle Physiotherapy">
+  <meta name="og:locale" content="en_CA">
+  <meta name="og:type" content="website">
+  <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png" />
+
+  <link href="//www.google-analytics.com" rel="dns-prefetch">
+  <link href="/assets/img/icons/favicon.ico" rel="shortcut icon">
+  <link href="/assets/img/icons/touch.png" rel="apple-touch-icon-precomposed">
+</head>

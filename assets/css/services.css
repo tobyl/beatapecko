@@ -1,0 +1,57 @@
+#staff-headshots {
+  & ul {
+    display: grid;
+  }
+}
+
+.services-list {
+  & h3 {
+    font-size: 1.5rem;
+  }
+  & img {
+    max-width: 85%;
+  }
+}
+
+.services-list ul {
+  display: grid;
+  
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+}
+
+#getting-started {
+  & .container {
+    @media (min-width: 768px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 3rem;
+    }
+  }
+}
+
+.technology {
+  & .blob-img {
+    margin-top: -15rem;
+    margin-bottom: 3rem;
+  }
+  
+  & .technology-list {
+    & li,
+    & p {
+      margin-block-end: 2rem; 
+    }
+  }
+}
+
+#services-intro {
+  & .container {
+    @media (min-width: 768px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+    }
+  }
+}

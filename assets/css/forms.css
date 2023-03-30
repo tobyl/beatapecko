@@ -1,0 +1,19 @@
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+textarea {
+  border: 1px solid #ccc;
+  transition: all 131ms ease-out;
+  width: 75%;
+
+  &:focus-visible {
+    outline: 3px solid var(--gray-1);
+    outline-offset: 0;
+  }
+}
+
+label {
+  display: block;
+  font-size: 95%;
+  font-weight: 400;
+}

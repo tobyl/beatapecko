@@ -1,0 +1,38 @@
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+.columns {
+  display: grid;
+}
+
+.columns.two-columns {
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+}
+
+figure.body-quote {
+
+}
+
+.large-pad {
+  padding-block: 3rem;
+}
+
+.x-large-pad {
+  padding-block: 5rem;
+}
+
+.blob-img {
+  border-radius: 30% 70% 70% 30% / 53% 30% 70% 47%;
+  outline: 8px solid var(--secondary-l2);
+}

@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  {{ partial "head.html" . }}
+  <body class="{{ urlize .Title }}">
+    {{ partial "header.html" . }}
+    {{ .Content }}
+    <div id="map"></div>
+    {{ partial "cta.html" . }}
+    {{ partial "footer.html" . }}
+    <script defer language="javascript" type="text/javascript"  src="{{ "/js/main.js" | urlize | relURL }}"></script>
+  </body>
+</html>
+<script
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIJcLNSwy9y071aF2QItBgzd3jWsPf2eE&callback=initMap&v=weekly"
+  defer
+></script>
+<script language="javascript" type="text/javascript"  src="{{ "/js/contact.js" | urlize | relURL }}"></script>

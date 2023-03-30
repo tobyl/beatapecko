@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;1,300;1,400&family=Roboto+Slab:wght@300&display=swap');
+
+@import "assets/css/reset/main.css";
+
+@import 'assets/css/utils.css';
+@import 'assets/css/base.css';
+@import 'assets/css/buttons.css';
+@import 'assets/css/forms.css';
+@import 'assets/css/header.css';
+@import 'assets/css/nav.css';
+@import 'assets/css/home.css';
+@import 'assets/css/services.css';
+@import 'assets/css/contact.css';
+@import 'assets/css/footer.css';
+@import 'assets/css/cta.css';
+
+:root {
+  --body-font: clamp(1rem, 3vw, 1.25rem);
+  --body-font-colour: var(--gray-7);
+  --header-colour: var(--gray-9);
+}
