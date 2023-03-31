@@ -14,3 +14,7 @@
 body.contact #map {
   display: block;
 }
+
+body.contact #cta {
+  display: none;
+}

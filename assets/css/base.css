@@ -68,6 +68,10 @@ a {
   color: var(--secondary-d1);
 }
 
+address {
+  margin-block-end: 2rem;
+}
+
 section.pink-bg {
   background: var(--secondary-l1);
   color: var(--secondary-d6);
