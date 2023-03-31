@@ -970,6 +970,10 @@ ul li {
 a {
   color: var(--secondary-d1);
 }
+address {
+  -webkit-margin-after: 2rem;
+          margin-block-end: 2rem;
+}
 section.pink-bg {
   background: var(--secondary-l1);
   color: var(--secondary-d6);
@@ -1345,6 +1349,9 @@ header.home-header .home-header-inner .container .beata-headshot:before {
 }
 body.contact #map {
   display: block;
+}
+body.contact #cta {
+  display: none;
 }
 footer {
   background: rgb(241,115,137);

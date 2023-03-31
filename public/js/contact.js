@@ -16,7 +16,7 @@
     
     new google.maps.Marker({
       position: new google.maps.LatLng(lat, long),
-      icon: "/assets/img/marker.svg",
+      icon: "../img/marker.svg",
       map: map,
     })
   }
