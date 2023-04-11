@@ -99,7 +99,7 @@
 } */
 
 .atf {
-  & > svg {
+  > svg {
     fill: var(--secondary);
     width: 110%;
   }
