@@ -1,4 +1,6 @@
 var sections = document.querySelectorAll('section')
+var navTrigger = document.querySelector('#show-modal')
+var closeNav = document.querySelector('#close-nav')
 
 function isInViewport(el) {
   var rect = el.getBoundingClientRect()
@@ -31,4 +33,12 @@ document.addEventListener("scroll", (event) => {
       section.classList.remove('visible')
     }
   })
+})
+
+navTrigger.addEventListener('click', function() {
+  document.querySelector('.mobile-nav').classList.add('active')
+})
+
+closeNav.addEventListener('click', function() {
+  document.querySelector('.mobile-nav').classList.remove('active')
 })

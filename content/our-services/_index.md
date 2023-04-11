@@ -9,8 +9,8 @@ draft: false
 <section id="services-intro" class="large-pad">
   <article class="container">
     <div>
-      <h2>Safe, Clean and Comfortable Rooms</h2>
-      <p>Our dental practice has adopted very quickly during the pandemic. We took the situation very seriously and made the necessary changes as fast as possible. As you walk into our reception area you will notice the glass barrier that was added. Our operatories were enclosed with glass doors. The HVAC system was upgraded to keep our patients and staff safe. The engineering study was done to confirm the appropriate number of air exchanges per hour. Each operatory is also equipped with a state of the art air scrubber. The safety of our patients and staff is our priority.</p>
+      <h2>Safe, Clean & Comfortable Operatories</h2>
+      <p>Our response to the pandemic was quick and decisive. The safety of our patients and staff is non-negotiable. We quickly added glass barriers in the reception area, and our operatories were enclosed with glass doors. The HVAC system was upgraded and engineering study done to confirm the appropriate air exchanges. Each operatory is also equipped with with a state of the art air scrubber. We are proud to provide you with the safest environment possible.</p>
     </div>
     <img class="blob-img" src="/img/operatory2.jpg" />
   </article>
@@ -21,7 +21,8 @@ draft: false
     <img src="/img/beata-standing.png" />
     <div>
       <h2>Meet Dr. Pecko, DDS</h2>
-      <p>Dr. Beata Pecko graduated with distinction from dental school at the University of Western Ontario in June 2000. She received several awards including ODA Proficiency Award. Dr. Pecko has been practicing dentistry in Windsor since graduating, and in September 2011 moved her practice to Devon Plaza Dental.</p>
+      <p>Dr. Beata Pecko graduated with distinction from dental school at the University of Western Ontario in June 2000. She received several awards including ODA Proficiency Award.</p>
+      <p>Dr. Pecko has been practicing dentistry in Windsor since graduating, and in September 2011 moved her practice to Devon Plaza Dental.</p>
       <p>Dr. Pecko's emphasis is on patient comfort as well as keeping up with the latest advancements in dentistry today. This enables her to provide patients with the best quality of care in the field.</p>
     </div>
   </div>
@@ -31,8 +32,8 @@ draft: false
   <div class="container">
     <blockquote>
       {{< svg "static/icons/quote-left.svg" >}}
-      <p>I have been a patient of Dr. Pecko for years and have always been impressed with the kind, professional approach to patient care. I always feel at ease, and she does a great job of explaining the treatments!</p>
-      <cite>Jane Doe</cite>
+      <p>If you want an exceptional dental experience, with great people, immaculate environment and the best dentist I have had over many many years, be sure to make an appointment with Dr Beata Pecko. I recommend her and all her staff as the professional people to care for your oral health.</p>
+      <cite>Gerry</cite>
     </blockquote>
   </div> <!-- .container -->
 </figure>
@@ -67,7 +68,7 @@ draft: false
   </div>
 </section>
 
-<section id="getting-started" class="large-pad">
+<section id="getting-started" class="x-large-pad">
   <article class="container">
     <div>
       <h3>First Appointment</h3>
@@ -86,7 +87,17 @@ draft: false
   </article>
 </section>
 
-<section class="pink-bg services-list">
+<figure class="body-quote large-pad pink-bg">
+  <div class="container">
+    <blockquote>
+      {{< svg "static/icons/quote-left.svg" >}}
+      <p>Been going to Dr. Pecko for many years and very happy with the service provided during my appointments. Dr. Pecko and the staff are so friendly and knowledgeable. I really love that I get texts about my upcoming appointments so I don't forget.</p>
+      <cite>Shane</cite>
+    </blockquote>
+  </div> <!-- .container -->
+</figure>
+
+<section class="services-list large-pad">
   <div class="container">
     <ul>
       <li>
@@ -98,19 +109,19 @@ draft: false
         <p>Our qualified hygiene team provides quality care through regular removal of plaque and tartar, essential for gum and bone health that supports teeth. The hygienist uses hand and ultrasonic scalers, polishes teeth, and applies fluoride varnish when necessary, and may take intraoral pictures.</p>
       </li>
       <li>
+        <img class="blob-img" src="/img/services1.jpg" />
+      </li>
+      <li>
+        <h3>Pediatric Dentistry</h3>
+        <p>We find treating and educating children of all ages highly rewarding. Our services include preventative and restorative care, such as dental cleanings, fluoride treatments, simple extractions, and orthodontic monitoring. We aim to make visits enjoyable and stress-free to promote lifelong oral hygiene habits and ensure lasting beautiful smiles.</p>
+      </li>
+      <li>
         <h3>Emergency Services</h3>
         <p>Our emergency services are available for immediate dental care needs, including pain, swelling, infections, broken or cracked teeth, and trauma. We are here to help!</p>
       </li>
       <li>
         <h3>Cosmetic Dentistry</h3>
         <p>We can help you enhance your smile by analyzing potential issues and suggesting solutions, such as orthodontic referrals, teeth whitening, dental veneers, crowns, or implants.</p>
-      </li>
-      <li>
-        <img class="blob-img" src="/img/services1.jpg" />
-      </li>
-      <li>
-        <h3>Pediatric Dentistry</h3>
-        <p>We find treating and educating children of all ages highly rewarding. Our services include preventative and restorative care, such as dental cleanings, fluoride treatments, simple extractions, and orthodontic monitoring. We aim to make visits enjoyable and stress-free to promote lifelong oral hygiene habits and ensure lasting beautiful smiles.</p>
       </li>
       <li>
         <h3>Dental Fillings</h3>
@@ -125,6 +136,13 @@ draft: false
         <p>Root canal or endodontic treatment is necessary for teeth with large decay, severe trauma or fractures, or abscesses or inflammation causing pain. Crowns are recommended to protect the treated teeth from fracture. In complex cases, we may recommend a visit to a root canal specialist.</p>
       </li>
       <li>
+        <img class="blob-img" src="/img/beata-pecko-xray.jpg" />
+      </li>
+      <li>
+        <h3>Night Guards and Sports Appliances</h3>
+        <p>Night guards protect teeth from grinding and are most effective at night when people are not aware of their grinding. These guards separate teeth and slightly open the mouth, preventing damage. Contact sports like hockey and football pose a risk of tooth and soft tissue injuries as well as head injuries like concussions, which a properly fitted sports guard can help prevent.</p>
+      </li>
+      <li>
         <h3>Crowns and Bridges</h3>
         <p>Crowns or "caps" are used to restore severely damaged teeth or protect root canal-treated teeth from fracture and restore function. They cover the whole tooth or replace missing structure. Bridges replace one or two missing teeth. We use digital scanning in cases of advanced restorations.</p>
       </li>
@@ -137,16 +155,12 @@ draft: false
         <p>Dental veneers are thin, tooth coloured facings for your teeth that bonded in place. They help correct spacing between teeth as well as their colour, size and contour.</p>
       </li>
       <li>
-        <h3>Night Guards and Sports Appliances</h3>
-        <p>Night guards protect teeth from grinding and are most effective at night when people are not aware of their grinding. These guards separate teeth and slightly open the mouth, preventing damage. Contact sports like hockey and football pose a risk of tooth and soft tissue injuries as well as head injuries like concussions, which a properly fitted sports guard can help prevent.</p>
+        <h3>Nitrous Oxide Sedation</h3>
+        <p>Nitrous oxide sedation is available for anxious patients during dental procedures. This involves breathing in a mixture of nitrous oxide and oxygen through a mask, producing a relaxed feeling while remaining conscious and able to respond. After the procedure, patients are put on oxygen and usually return to normal within 10 minutes.</p>
       </li>
       <li>
         <h3>Teeth Whitening</h3>
         <p>Your teeth change colour naturally over the lifetime. Teeth whitening can help you get a much brighter and bites smile. Take home whitening treatment is available at our office. Custom trays that fit over your teeth will be fabricated which you will wear at home every day for 2-3 weeks.</p>
-      </li>
-      <li>
-        <h3>Nitrous Oxide Sedation</h3>
-        <p>Nitrous oxide sedation is available for anxious patients during dental procedures. This involves breathing in a mixture of nitrous oxide and oxygen through a mask, producing a relaxed feeling while remaining conscious and able to respond. After the procedure, patients are put on oxygen and usually return to normal within 10 minutes.</p>
       </li>
       <li>
         <h3>Oral Sedation</h3>

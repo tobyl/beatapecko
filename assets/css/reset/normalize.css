@@ -189,7 +189,6 @@
 
 :where(small) { 
   font-size: max(.75em, var(--font-size-0)); 
-  max-inline-size: var(--size-content-1);
 }
 
 :where(hr) {

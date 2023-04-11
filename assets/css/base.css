@@ -72,7 +72,14 @@ address {
   margin-block-end: 2rem;
 }
 
-section.pink-bg {
+hr {
+  border: 0;
+  border-top: 1px solid var(--gray-2);
+  margin-block: 2rem;
+}
+
+section.pink-bg,
+figure.pink-bg {
   background: var(--secondary-l1);
   color: var(--secondary-d6);
   padding-block: 4rem;
@@ -85,9 +92,10 @@ section.pink-bg {
 blockquote {
   position: relative;
   margin: 0;
-  padding: 0 0 0 4rem;
+  padding: 0 0 0 0;
 
   & svg {
+    display: none;
     position: absolute;
     left: 0;
     top: -0.75rem;
@@ -101,9 +109,18 @@ blockquote {
     font-size: 80%;
     color: var(--gray-6);
   }
+
+  @media (min-width: 768px) {
+    padding: 0 0 0 4rem;
+    
+    & svg {
+      display: block;
+    }
+  }
 }
 
 .container {
+  position: relative;
   padding-inline: 1rem;
   max-width: 768px;
   margin: 0 auto;

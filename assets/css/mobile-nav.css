@@ -1,0 +1,85 @@
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  background-image: linear-gradient(
+    45deg,
+    hsl(300deg 20% 1%) 0%,
+    hsl(304deg 33% 3%) 11%,
+    hsl(307deg 31% 6%) 22%,
+    hsl(310deg 29% 7%) 33%,
+    hsl(313deg 28% 9%) 44%,
+    hsl(315deg 30% 10%) 56%,
+    hsl(317deg 33% 11%) 67%,
+    hsl(320deg 36% 13%) 78%,
+    hsl(322deg 39% 14%) 89%,
+    hsl(324deg 42% 15%) 100%
+  );
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.mobile-nav {
+  display: grid;
+  place-content: center;
+  opacity: 0;
+  transform: scale(0.1);
+  
+  > div {
+    width: 50vw;
+    margin-top: -8rem;
+  }
+}
+
+.mobile-nav {
+  & .gray {
+    fill: #fff;
+  }
+}
+
+.mobile-nav ul {
+  margin-top: 5rem;
+
+  & li {
+    display: block;
+    text-align: center;
+    letter-spacing: 1px;
+
+    & a {
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 1.75rem;
+
+      &:hover {
+        color: var(--secondary-l3);
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.mobile-nav ul .divider {
+  margin: 1.5rem auto;
+  border-bottom: 1px solid var(--gray-6);
+  width: 30%;
+}
+
+.mobile-nav.active {
+  animation: slideUp 0.3s forwards ease-out;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
