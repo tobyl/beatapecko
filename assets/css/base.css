@@ -26,8 +26,11 @@
   --secondary-d6: #581e28;
   --secondary-d7: #42161e;
   --secondary-d8: #2c0f14;
-  --secondary-d9: #16070a;
-  
+  --secondary-d9: #16070a; 
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -106,8 +109,8 @@ blockquote {
   & cite {
     display: block;
     margin-top: 1rem;
-    font-size: 80%;
-    color: var(--gray-6);
+    font-size: 85%;
+    color: var(--gray-7);
   }
 
   @media (min-width: 768px) {
@@ -136,4 +139,12 @@ blockquote {
   @media (min-width: 1300px) {
     max-width: 1300px;
   }
+}
+
+::-moz-selection {
+  background: var(--secondary-l2);
+}
+
+::selection {
+  background: var(--secondary-l2);
 }

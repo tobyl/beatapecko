@@ -17,3 +17,8 @@ label {
   font-size: 95%;
   font-weight: 400;
 }
+
+#my-form-status {
+  padding-block: 2rem;
+  width: 75%;
+}

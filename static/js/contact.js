@@ -31,6 +31,8 @@
     var status = document.getElementById('my-form-status')
     var data = new FormData(event.target)
 
+    var msg = "Uh oh! There was a problem submitting your request, please call us at 519-255-1117."
+
     fetch(event.target.action, {
       method: form.method,
       body: data,
@@ -38,20 +40,20 @@
     })
       .then(response => {
         if (response.ok) {
-          status.innerHTML = 'Thanks for your submission!'
+          status.innerHTML = 'Thanks for your submission, we will be in touch!'
           form.reset()
         } else {
           response.json().then(data => {
             if (Object.hasOwn(data, 'errors')) {
               status.innerHTML = data["errors"].map(error => error['message']).join(", ")
             } else {
-              status.innerHTML = 'Oops! There was a problem submitting your form'
+              status.innerHTML = msg
             }
           })
         }
       })
       .catch(error => {
-        status.innerHTML = 'Oops! There was a problem submitting your form'
+        status.innerHTML = msg
       })
   }
   if (form) {

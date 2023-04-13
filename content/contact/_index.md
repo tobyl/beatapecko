@@ -8,7 +8,7 @@ draft: false
 
 <section>
   <div class="container">
-    <img class="contact-banner" src="/img/contact-banner.jpg" />
+    <img class="contact-banner" src="/img/contact-banner.jpg" alt="Pictures of the dental office" />
     <div class="columns two-columns">
       <div class="contact-details">
         <h3>Office Hours</h3>
@@ -32,6 +32,8 @@ draft: false
         </address>
       </div>
       <div>
+        <h3>Dental Emergency</h3>
+        <p>If you are having a dental emergency, please call <a href="tel:15195646568">519-564-6568</a> and we will do our best to get you in as soon as possible.</p>
         <h3>Book an Appointment</h3>
         <p>Please use the form below to book an appointment. Let us know your contact details and we'll get back to you within one business day.</p>
         <form id="my-form" action="https://formspree.io/f/xrgyvdyw" method="POST">

@@ -53,6 +53,7 @@
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 1rem;
+    outline: 4px solid var(--secondary-l2);
   }
 
   & strong {
@@ -90,20 +91,7 @@
   }
 }
 
-/* .atf {
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' style='enable-background:new 0 0 1920 1080' viewBox='0 0 1920 1080'%3E%3Cpath d='M.8 1005.5c2.5.3 4.6.5 6.5.7 47.7 5.1 187.5-24.7 278-18.7s175.2 54 265 54.7 181.2-57.2 274-50.9c92.8 6.2 191.2 82.9 283 88.4 91.8 5.5 178.2-47.1 268-55.4 89.8-8.4 180.3 16.5 271 5.2 45.3-5.6 181.8-20.7 273-35.9V.8H.8v1004.7z' style='fill:%23df6688'/%3E%3C/svg%3E");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  padding-bottom: 8rem;
-} */
-
 .atf {
-  > svg {
-    fill: var(--secondary);
-    width: 110%;
-  }
-
   & .three-items {
     position: relative;
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 1281 150.2' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23db4a63' d='M 1281.03 123.154 L 1280.72 13.354 C 1218.55 18.644 1121.66 33.134 1003.13 33.904 C 788.54 35.304 676.53 8.674 518.25 2.214 C 398 -2.696 221.25 -1.766 0 29.694 L 0.31 117.684 C 62.48 112.394 159.37 105.834 277.9 105.064 C 492.49 103.664 604.5 140.864 762.78 147.324 C 883.03 152.234 1059.78 154.604 1281.03 123.154 Z'/%3E%3C/svg%3E");
@@ -122,13 +110,27 @@
       align-items: center;
       gap: 10vw;
 
-      & div {
+      & a {
         border: 3px solid var(--secondary-l4);
-        width: clamp(100px, 28%, 250px);
+        width: clamp(100px, 28%, 220px);
         border-radius: 50%;
         background: var(--secondary-l2);
+        transition: all 0.15s ease-in-out;
+        
+        &:hover {
+          transform: scale(1.1);
+          background: var(--secondary-l3);
+        }
       }
     }
+  }
+}
+
+.atf .container .new-patients {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
   }
 }
 

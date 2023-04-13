@@ -12,13 +12,13 @@ draft: false
       <h2>Safe, Clean & Comfortable Operatories</h2>
       <p>Our response to the pandemic was quick and decisive. The safety of our patients and staff is non-negotiable. We quickly added glass barriers in the reception area, and our operatories were enclosed with glass doors. The HVAC system was upgraded and engineering study done to confirm the appropriate air exchanges. Each operatory is also equipped with with a state of the art air scrubber. We are proud to provide you with the safest environment possible.</p>
     </div>
-    <img class="blob-img" src="/img/operatory2.jpg" />
+    <img class="blob-img auto-left-margin" src="/img/operatory2.jpg" alt="one of our Operatories" />
   </article>
 </section>
 
 <section id="meet-dr-pecko">
   <div class="container">
-    <img src="/img/beata-standing.png" />
+    <img src="/img/beata-standing.png" alt="Dr. Pecko smiling" />
     <div>
       <h2>Meet Dr. Pecko, DDS</h2>
       <p>Dr. Beata Pecko graduated with distinction from dental school at the University of Western Ontario in June 2000. She received several awards including ODA Proficiency Award.</p>
@@ -59,7 +59,7 @@ draft: false
         <p>A small camera that fits into your mouth allows us to capture high quality images of the oral cavity. this helps to provide you with clear explanations of the current dental condition and possible treatment options.</p>
       </div>
       <div>
-        <img class="blob-img" src="/img/technology.jpg" />
+        <img class="blob-img" src="/img/technology.jpg" alt="Our technology" />
         <h3>Cerec Omnicam</h3>
         <p>This is a digital scanner that uses advanced CAD/CAM technology. It creates a 3D map of the teeth and the surrounding soft tissues. It is used in treatment planning of more complex cases a as well as fabricating of crowns, bridges, veneers, implant crowns, night guards and orthodontic retainers.</p>
         <p>This technology allows us to avoid the mess and inconvenience of the traditional dental impressions.</p>
@@ -87,6 +87,16 @@ draft: false
   </article>
 </section>
 
+<hr class="highlight" />
+
+<section id="anxious-patients" class="large-pad">
+  <article class="container">
+    <h3>Feeling Anxious? We Get it.</h3>
+    <p>We know better than anyone that no one likes going to the dentist. We believe that respecting patients and gently explaining things at every step goes a long way towards putting them at ease and making their visit as stress-free as possible.</p>
+    <p>For patients who experience anxiety we offer nitrous oxide to help reduce feelings of stress or discomfort. Nitrous oxide is a safe and effective sedative that is administered through a small mask placed over your nose.</p>
+  </article>
+</section>
+
 <figure class="body-quote large-pad pink-bg">
   <div class="container">
     <blockquote>
@@ -109,7 +119,7 @@ draft: false
         <p>Our qualified hygiene team provides quality care through regular removal of plaque and tartar, essential for gum and bone health that supports teeth. The hygienist uses hand and ultrasonic scalers, polishes teeth, and applies fluoride varnish when necessary, and may take intraoral pictures.</p>
       </li>
       <li>
-        <img class="blob-img" src="/img/services1.jpg" />
+        <img class="blob-img" src="/img/services1.jpg" alt="Our services" />
       </li>
       <li>
         <h3>Pediatric Dentistry</h3>
@@ -123,6 +133,23 @@ draft: false
         <h3>Cosmetic Dentistry</h3>
         <p>We can help you enhance your smile by analyzing potential issues and suggesting solutions, such as orthodontic referrals, teeth whitening, dental veneers, crowns, or implants.</p>
       </li>
+    </ul>
+  </div>
+</section>
+
+<figure class="body-quote large-pad pink-bg">
+  <div class="container">
+    <blockquote>
+      {{< svg "static/icons/quote-left.svg" >}}
+      <p>Dr. Pecko and staff are ALWAYS friendly and punctual! However, what's most impressive is the perfection of the work they provide their patients! Tons of stars to you Dr. Pecko and your excellent staff! Thank you!</p>
+      <cite>Fern</cite>
+    </blockquote>
+  </div> <!-- .container -->
+</figure>
+
+<section class="services-list large-pad">
+  <div class="container">
+    <ul>
       <li>
         <h3>Dental Fillings</h3>
         <p>For cavities or broken teeth, we offer tooth-colored composite resin restorations using the Bioclear technique, which utilizes clear matrices to produce lifelike contouring of restored teeth through injection molding of heated resin material. This approach results in strong and aesthetically superior dental fillings.</p>
@@ -136,7 +163,7 @@ draft: false
         <p>Root canal or endodontic treatment is necessary for teeth with large decay, severe trauma or fractures, or abscesses or inflammation causing pain. Crowns are recommended to protect the treated teeth from fracture. In complex cases, we may recommend a visit to a root canal specialist.</p>
       </li>
       <li>
-        <img class="blob-img" src="/img/beata-pecko-xray.jpg" />
+        <img class="blob-img" src="/img/beata-pecko-xray.jpg" alt="Dr. Pecko explaining an x-ray to a patient" />
       </li>
       <li>
         <h3>Night Guards and Sports Appliances</h3>
@@ -169,3 +196,5 @@ draft: false
     </ul>
   </div> <!-- .container -->
 </section>
+
+<hr class="highlight" />

@@ -96,6 +96,8 @@ header.home-header .home-header-inner .container .beata-headshot:before {
 .header-meta {
   position: relative;
   z-index: 10;
+  text-align: center;
+  padding-top: 2rem;
 
   & .meta-cta {
     padding-left: 0;
@@ -106,8 +108,17 @@ header.home-header .home-header-inner .container .beata-headshot:before {
   }
 
   & blockquote {
+    display: none;
     font-size: 1.5rem;
     margin-block-end: 3rem;
+  }
+
+  @media (min-width: 960px) {
+    text-align: left;
+
+    & blockquote {
+      display: block;
+    }
   }
 }
 
