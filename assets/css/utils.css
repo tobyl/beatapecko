@@ -35,7 +35,11 @@ figure.body-quote {
 .blob-img {
   border-radius: 30% 70% 70% 30% / 53% 30% 70% 47%;
   outline: 8px solid var(--secondary-l2);
-  max-inline-size: 450px;
+  max-inline-size: 100%;
+
+  @media (min-width: 768px) {
+    max-inline-size: 450px;
+  }
 }
 
 /* svg fills */

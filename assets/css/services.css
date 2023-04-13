@@ -1,4 +1,5 @@
 #meet-dr-pecko {
+  padding-block: 2rem;
   background: #ede3df;
 
   & .container {
@@ -6,8 +7,19 @@
     align-items: center;
 
     & img {
+      display: none;
       width: 400px;
     }
+
+    @media (min-width: 768px) {
+      & img {
+        display: block;
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    padding-block: 0;
   }
 }
 
