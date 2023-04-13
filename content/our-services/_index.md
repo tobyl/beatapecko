@@ -56,7 +56,7 @@ draft: false
           </li>
         </ul>
         <h3>Intraoral Camera</h3>
-        <p>A small camera that fits into your mouth allows us to capture high quality images of the oral cavity. this helps to provide you with clear explanations of the current dental condition and possible treatment options.</p>
+        <p>A small camera that fits into your mouth allows us to capture high quality images of the oral cavity. This helps to provide you with clear explanations of the current dental condition and possible treatment options.</p>
       </div>
       <div>
         <img class="blob-img" src="/img/technology.jpg" alt="Our technology" />
