@@ -95,14 +95,13 @@ figure.pink-bg {
 blockquote {
   position: relative;
   margin: 0;
-  padding: 0 0 0 0;
+  padding: 0 0 0 2.5rem;
 
   & svg {
-    display: none;
     position: absolute;
     left: 0;
-    top: -0.75rem;
-    width: 3rem;
+    top: -0.5rem;
+    width: 2rem;
     fill: var(--secondary-l4);
   }
 
@@ -115,9 +114,10 @@ blockquote {
 
   @media (min-width: 768px) {
     padding: 0 0 0 4rem;
-    
+
     & svg {
-      display: block;
+      top: -0.75rem;
+      width: 3rem;
     }
   }
 }
