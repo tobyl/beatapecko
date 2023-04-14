@@ -52,7 +52,7 @@ draft: false
             </p>
             <p class="field">
               <label class="primary-label" for="notes">Notes</label>
-              <textarea id="phone" name="phone"></textarea>
+              <textarea id="notes" name="notes"></textarea>
             </p>
             <div class="g-recaptcha" data-sitekey="6LdezIklAAAAACQEnGCRnZRdF2_r05xPsz0Mjuht"></div>
             <button class="btn pill" id="my-form-button">Submit</button>
