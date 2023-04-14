@@ -51,8 +51,8 @@ draft: false
               <input id="phone" type="tel" name="phone" required />
             </p>
             <p class="field">
-              <label class="primary-label" for="notes">Notes</label>
-              <textarea id="notes" name="notes"></textarea>
+              <label class="primary-label" for="message">Notes</label>
+              <textarea id="message" name="message"></textarea>
             </p>
             <div class="g-recaptcha" data-sitekey="6LdezIklAAAAACQEnGCRnZRdF2_r05xPsz0Mjuht"></div>
             <button class="btn pill" id="my-form-button">Submit</button>
