@@ -187,7 +187,7 @@ draft: false
       </li>
       <li>
         <h3>Teeth Whitening</h3>
-        <p>Your teeth change colour naturally over the lifetime. Teeth whitening can help you get a much brighter and bites smile. Take home whitening treatment is available at our office. Custom trays that fit over your teeth will be fabricated which you will wear at home every day for 2-3 weeks.</p>
+        <p>Your teeth change colour naturally over their lifetime, and teeth whitening can help you get a much brighter smile. Take home whitening treatment is available at our office. Custom trays that fit over your teeth will be fabricated which you will wear at home every day for 2-3 weeks.</p>
       </li>
       <li>
         <h3>Oral Sedation</h3>
