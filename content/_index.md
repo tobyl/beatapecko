@@ -23,6 +23,16 @@ draft: false
   </div>
 </section>
 
+<figure class="body-quote large-quote large-pad">
+  <div class="container">
+    <blockquote>
+      {{< svg "static/icons/quote-left.svg" >}}
+      I love being a dentist! I am proud of the relationships I build with my patients, and I love to help them achieve their best smile. Exceeding your expectations is my top priority.
+      <cite>Dr. Beata Pecko, DDS</cite>
+    </blockquote>
+  </div>
+</figure>
+
 <section class="home-icons large-pad">
   <div class="container">
     <ul>
@@ -105,7 +115,7 @@ draft: false
   <div class="container">
     <blockquote>
       {{< svg "static/icons/quote-left.svg" >}}
-      <p>Willing to work with our big family To get us all in on the same day.<br />Always friendly and wonderful people.</p>
+      <p>Willing to work with our big family to get us all in on the same day.<br />Always friendly and wonderful people.</p>
       <cite>Tanya</cite>
     </blockquote>
   </div> <!-- .container -->

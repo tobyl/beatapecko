@@ -53,6 +53,7 @@
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 1rem;
+    margin-inline: 1rem;
     outline: 4px solid var(--secondary-l2);
   }
 
@@ -126,7 +127,7 @@
   }
 }
 
-.atf .container .new-patients {
+.atf .container .anxious-patients {
   display: none;
 
   @media (min-width: 768px) {

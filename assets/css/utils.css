@@ -24,6 +24,15 @@ figure.body-quote {
   display: block;
 }
 
+figure.body-quote.large-quote {
+  display: none;
+  font-size: 110%;
+
+  @media (max-width: 960px) {
+    display: block;
+  }
+}
+
 .large-pad {
   padding-block: 3rem;
 }
