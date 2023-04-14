@@ -67,6 +67,7 @@
       .then(response => {
         if (response.ok) {
           status.innerHTML = 'Thanks for your submission, we will be in touch!'
+          status.classList.add('success')
           form.reset()
           slideUp(formInner, 500)
         } else {
