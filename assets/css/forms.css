@@ -22,3 +22,16 @@ label {
   padding-block: 2rem;
   width: 75%;
 }
+
+#my-form-button {
+  margin-top: 2rem;
+}
+
+#my-form-status {
+  border: 1px solid var(--secondary);
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: var(--secondary-d2);
+  background: var(--secondary-l1);
+}

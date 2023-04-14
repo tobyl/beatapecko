@@ -37,7 +37,7 @@ draft: false
         <h3>Book an Appointment</h3>
         <p>Please use the form below to book an appointment. Let us know your contact details and we'll get back to you within one business day.</p>
         <form id="my-form" action="https://formspree.io/f/xrgyvdyw" method="POST">
-          <div id="inner-form">
+          <div id="my-form-inner">
             <p class="field">
               <label class="primary-label" for="name">Your name</label>
               <input id="name" type="text" name="name" required />
