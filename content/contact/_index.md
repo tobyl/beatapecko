@@ -54,7 +54,7 @@ draft: false
               <label class="primary-label" for="notes">Notes</label>
               <textarea id="phone" name="phone"></textarea>
             </p>
-            <div class="g-recaptcha" data-sitekey="6Ldo7MQZAAAAAGtYeCxzJjAzAvhpXeVxSLBGy8ay"></div>
+            <div class="g-recaptcha" data-sitekey="6LdezIklAAAAACQEnGCRnZRdF2_r05xPsz0Mjuht"></div>
             <button class="btn pill" id="my-form-button">Submit</button>
           </div> <!-- inner-form -->
           <p id="my-form-status"></p>
