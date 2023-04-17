@@ -59,8 +59,11 @@
 
 .technology {
   & .blob-img {
-    margin-top: -15rem;
     margin-bottom: 3rem;
+
+    @media (min-width: 960px) {
+      margin-top: -15rem;
+    }
   }
   
   & .technology-list {
