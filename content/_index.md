@@ -74,6 +74,7 @@ draft: false
   <div class="container">
     <h2>Meet the Team</h2>
     <p>Our dedicated, caring team are 100% focused on client comfort and safety. We'll do everything we can to set your mind at ease, while providing the very best dental treatment options available.</p>
+    <p>Slovak, Italian and Serbian spoken by Dr. Pecko and the staff.</p>
     <ul class="animated">
       <li>
         <span><img src="img/staff/denise.webp" alt="Denise" /></span>
