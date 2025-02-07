@@ -96,11 +96,11 @@ draft: false
         <strong>Martha</strong>
         <small>Receptionist</small>
       </li>
-      <li>
+      <!-- <li>
         <span><img src="img/staff/alexia.webp" alt="Alexia" /></span>
         <strong>Alexia</strong>
         <small>Dental Hygienist</small>
-      </li>
+      </li> -->
       <li>
         <span><img src="img/staff/emilija.webp" alt="Emilija" /></span>
         <strong>Emilija</strong>
