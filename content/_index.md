@@ -77,11 +77,6 @@ draft: false
     <p>Slovak, , Ukrainian, Italian and Serbian spoken by Dr. Pecko and the staff.</p>
     <ul class="animated">
       <li>
-        <span><img src="img/staff/denise.webp" alt="Denise" /></span>
-        <strong>Denise</strong>
-        <small>Patient Coordinator</small>
-      </li>
-      <li>
         <span><img src="img/staff/patty.webp" alt="Patty" /></span>
         <strong>Patty</strong>
         <small>Dental Assistant</small>
