@@ -21,6 +21,7 @@ draft: false
         </ul>
         <h3>Contact Us</h3>
         <address>
+          Devon Plaza Dental<br>
           2665 Howard Ave, Unit 1<br>
           Windsor, Ontario<br>
           N8X 4Z3

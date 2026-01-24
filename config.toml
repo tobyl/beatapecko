@@ -4,3 +4,5 @@ title = 'Dr. Beata Pecko'
 
 [markup.goldmark.renderer]
 unsafe= true
+
+bind = "0.0.0.0"

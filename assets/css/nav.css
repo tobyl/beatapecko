@@ -7,6 +7,10 @@
     gap: 1rem;
   }
 
+  & a {
+    white-space: nowrap;
+  }
+
   @media (min-width: 768px) {
     display: block;
   }

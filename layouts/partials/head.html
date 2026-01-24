@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <title>Dr. Beata Pecko DDS - Proudly serving the Windsor-Essex region</title>
 
-  {{ with resources.Get "css/main.css" | postCSS }}
+  {{ with resources.Get "./css/main.css" | postCSS (dict "inlineImports" true) }}
     <link rel="stylesheet" href="{{ .RelPermalink }}">
   {{ end }}
 
