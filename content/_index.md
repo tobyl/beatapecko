@@ -74,7 +74,7 @@ draft: false
   <div class="container">
     <h2>Meet the Team</h2>
     <p>Our dedicated, caring team are 100% focused on client comfort and safety. We'll do everything we can to set your mind at ease, while providing the very best dental treatment options available.</p>
-    <p>Slovak, , Ukrainian, Italian and Serbian spoken by Dr. Pecko and the staff.</p>
+    <p>Slovak, Ukrainian, Italian and Serbian spoken by Dr. Pecko and the staff.</p>
     <ul class="animated">
       <li>
         <span><img src="img/staff/patty.webp" alt="Patty" /></span>
@@ -100,6 +100,11 @@ draft: false
         <span><img src="img/staff/emilija.webp" alt="Emilija" /></span>
         <strong>Emilija</strong>
         <small>Dental Hygienist</small>
+      </li>
+      <li>
+        <span><img src="img/staff/gerri.webp" alt="Gerri" /></span>
+        <strong>Gerri</strong>
+        <small>Treatment Coordinator</small>
       </li>
     </ul>
   </div>
